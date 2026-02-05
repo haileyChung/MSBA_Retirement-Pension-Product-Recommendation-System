@@ -1,0 +1,11 @@
+# 데이터 전처리 파이프라인 의존성
+# pip install -r requirements.txt
+
+# 필수 패키지
+pandas>=2.0.0
+numpy>=1.24.0
+openpyxl>=3.1.0      # Excel 파일 읽기/쓰기
+matplotlib>=3.7.0    # 시각화 (3_분석기간 설정.py)
+
+# LLM 상품 분류용 (4_상품분류_LLM.py)
+openai>=1.0.0        # OpenAI API 클라이언트
