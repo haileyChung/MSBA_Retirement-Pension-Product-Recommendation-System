@@ -1,0 +1,41 @@
+# 개인맞춤 리포트 생성 시스템 의존성
+# pip install -r requirements.txt
+
+# ===== 필수 패키지 =====
+
+# OpenAI API 클라이언트
+openai>=1.0.0
+
+# 데이터 처리
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Excel 파일 읽기/쓰기
+openpyxl>=3.1.0
+
+# PDF 이미지 변환 (OCR용)
+pdf2image>=1.16.0
+Pillow>=9.0.0
+
+# 환경변수 관리
+python-dotenv>=1.0.0
+
+# ===== 외부 도구 (별도 설치 필요) =====
+
+# Poppler (pdf2image 의존성)
+# - Windows: https://github.com/osber/poppler-windows 또는 conda install poppler
+# - macOS: brew install poppler
+# - Linux: apt-get install poppler-utils
+
+# ===== 선택적 패키지 =====
+
+# 비동기 HTTP 요청 (확장 시)
+# aiohttp>=3.8.0
+# httpx>=0.24.0
+
+# 시각화 (선택사항)
+# matplotlib>=3.7.0
+
+# 테스트 (개발용)
+# pytest>=7.0.0
+# pytest-asyncio>=0.21.0
